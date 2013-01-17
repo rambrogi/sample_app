@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+gem 'bootstrap-sass'
 gem 'rails', '3.2.9'
 
 # Bundle edge Rails instead:
@@ -17,6 +19,7 @@ end
 
 group :test do
 	gem 'rspec-rails', '2.12.0'
+  gem 'spork'
 end
 
 group :production do
